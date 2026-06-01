@@ -26,7 +26,7 @@ let pessoa = {
 // let twitter = pessoa.social.twitter;
 
 // Desconstrução de objetos - Para pegar as propriedades de um objeto e criar variáveis com o mesmo nome, basta usar a sintaxe abaixo:
-let {nome:pessoaNome, sobrenome, idade = 25} = pessoa;
+let {nome:pessoaNome, sobrenome, idade:old = 25} = pessoa;
 
 // Para pegar as propriedades de um objeto e criar variáveis com o mesmo nome, basta usar a sintaxe abaixo:
 let {facebook:face, twitter} = pessoa.social;

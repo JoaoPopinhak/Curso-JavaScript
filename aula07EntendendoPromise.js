@@ -21,9 +21,6 @@ fetch('https://jsonplaceholder.typicode.com/posts')
 Neste exemplo, a função fetch() retorna uma Promise que é resolvida quando a resposta da requisição é recebida. O método then() é usado para processar a resposta e extrair o JSON, e outro then() é usado para acessar o título do primeiro post. Se ocorrer algum erro durante a requisição ou processamento, o método catch() irá capturar e exibir o erro no console.
 */
 
-
-
-
 function clicou(){
     fetch('https://jsonplaceholder.typicode.com/posts')
         .then((response)=>{
