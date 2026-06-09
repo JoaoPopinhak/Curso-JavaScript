@@ -16,7 +16,7 @@ res = lista.concat(lista2); // Concatena dois arrays e retorna um novo array res
 
 delete lista[1]; // Remove o elemento no índice 1 do array, deixando um "buraco" (undefined) nesse índices
 
-lista.splice(1, 1); // Remove o elemento no índice 1 do array e os elementos subsequentes são movidos para preencher o espaço vazio
+lista.splice(1, 1); // Remove o elemento no índice 1 do array e os elementos subsequentes são movidos para preencher o espaço vazio. O segundo argumento (1) indica quantos elementos devem ser removidos a partir do índice especificado (1).
 lista.pop(); // Remove o último elemento do array e retorna esse elemento
 lista.shift(); // Remove o primeiro elemento do array e retorna esse elemento
 
